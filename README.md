@@ -1,2 +1,2 @@
-# konfig
-A set of personalised dotfiles and configs for UNIX-like machines.
+# mes-configurations
+A set of personalised configurations and dotfiles for UNIX-like machines.
