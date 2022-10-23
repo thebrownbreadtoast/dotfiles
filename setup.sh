@@ -4,10 +4,6 @@ echo "Initializing configuration..."
 
 apt-get install git vim zsh
 
-cd $HOME
-
-git clone https://github.com/dadwalakshay/mes-configurations.git && cd $HOME/mes-configurations
-
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ln -s zsh/.zshrc $HOME/.zshrc
