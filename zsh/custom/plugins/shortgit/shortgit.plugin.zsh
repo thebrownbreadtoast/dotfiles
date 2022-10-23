@@ -1,0 +1,17 @@
+#!/usr/bin/env zsh
+# A zsh git plugin, inspired by -> https://github.com/bossjones/boss-git-zsh-plugin
+alias g='git'
+alias ga='git add'
+alias gall='git add .'
+alias gb='git branch'
+alias gba='git branch -a'
+alias gca='git commit -am'
+alias gco='git checkout'
+alias gdel='git branch -D'
+alias gl='git pull'
+alias gll='git log --graph --pretty=oneline --abbrev-commit'
+alias gm='git merge'
+alias gp='git push'
+alias gs='git status'
+alias gd='git diff'
+alias gdn='git diff --name-only'
