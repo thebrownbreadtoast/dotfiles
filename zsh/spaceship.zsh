@@ -12,7 +12,6 @@ SPACESHIP_PROMPT_ORDER=(
   user          # Username section
   dir           # Current directory section
   host          # Hostname section
-  git           # Git section (git_branch + git_status)
   python        # Python section
   package       # Package version
   node          # Node.js section
@@ -27,9 +26,9 @@ SPACESHIP_PROMPT_ORDER=(
 )
 
 SPACESHIP_RPROMPT_ORDER=(
+    git           # Git section (git_branch + git_status)
     async         # Async jobs indicator
     jobs          # Background jobs indicator
     exit_code     # Exit code section
     exec_time     # Execution time
 )
-
