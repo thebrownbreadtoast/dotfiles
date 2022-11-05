@@ -39,6 +39,7 @@ export NVM_DIR="$HOME/.nvm"
 # Custom aliases
 alias history="history -E"
 alias netcheck="ping -c 4 google.com"
+alias opendir="xdg-open ."
 
 # zsh auto-suggest config
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="bg=cyan,bold,underline"
