@@ -55,3 +55,5 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 autoload -Uz compinit
 compinit
 
+export PATH=$PATH:$HOME/.local/bin
+
