@@ -40,8 +40,8 @@ export NVM_DIR="$HOME/.nvm"
 alias history="history -E"
 alias netcheck="ping -c 4 google.com"
 alias opendir="xdg-open ."
-alias htop="bashtop"
-alias top="bashtop"
+alias htop="bpytop"
+alias top="bpytop"
 
 # zsh auto-suggest config
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="bg=cyan,bold,underline"
