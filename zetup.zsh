@@ -31,6 +31,9 @@ else
     git pull
 fi
 
+# Installing bashtop, assuming current system has Python3.7+
+pip3 install bpytop --upgrade
+
 source $HOME/.zshrc
 
 echo "Configuration completed."
