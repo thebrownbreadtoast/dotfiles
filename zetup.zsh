@@ -39,7 +39,7 @@ if ! command -v pyenv >> /dev/null; then
 fi
 
 # Installing bashtop, assuming current system has Python3.7+
-pip3 install bpytop --upgrade
+pip3 install bpytop --upgrade --break-system-packages
 
 source $HOME/.zshrc
 
