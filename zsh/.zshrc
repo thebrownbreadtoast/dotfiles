@@ -57,5 +57,5 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 autoload -Uz compinit
 compinit
 
-export PATH=$PATH:$HOME/.local/bin:/usr/local/go/bin
+export PATH=$PATH:$HOME/.local/bin:/usr/local/go/bin:$HOME/.pyenv/bin
 

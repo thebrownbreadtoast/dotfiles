@@ -31,6 +31,13 @@ else
     git pull
 fi
 
+if ! command -v pyenv >> /dev/null; then
+	echo "Installing pyenv, please wait..."
+	curl https://pyenv.run | zsh
+
+	pyenv init -
+fi
+
 # Installing bashtop, assuming current system has Python3.7+
 pip3 install bpytop --upgrade
 
