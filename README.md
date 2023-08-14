@@ -1,5 +1,5 @@
 
-# mes-configurations
+# dotfiles
 A set of personalised configurations and dotfiles for UNIX-like machines. Currently using with Ubuntu 22.04.1 LTS.
 
 Steps to use:
