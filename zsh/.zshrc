@@ -54,5 +54,6 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 autoload -Uz compinit
 compinit
 
-export PATH=$PATH:$HOME/.local/bin:/usr/local/go/bin:$HOME/.pyenv/bin
+export PATH=$PATH:$HOME/.local/bin:$HOME/.pyenv/bin:/opt/homebrew/bin
 
+export HOMEBREW_NO_AUTO_UPDATE=1
