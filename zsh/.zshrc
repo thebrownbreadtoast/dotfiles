@@ -57,3 +57,5 @@ compinit
 export PATH=$PATH:$HOME/.local/bin:$HOME/.pyenv/bin:/opt/homebrew/bin
 
 export HOMEBREW_NO_AUTO_UPDATE=1
+
+eval "$(pyenv init -)"
